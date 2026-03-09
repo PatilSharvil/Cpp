@@ -1,25 +1,14 @@
-#include <iostream>
-#include <bits/stdc++.h>
+#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
-auto func = [](int x) -> int
-{
-    cout << "Value in param is : " << x << endl;
-    return x * x;
-};
+int main(int argc, char** args) { 
 
-int main(int argc, char **args)
-{
-
-    int x = 10;
-    int y = 20;
-    int z = 0;
-    [x, y, z]()
-    {
-        return  x + y;
+    vector<int> v = {1, 2, 3, 4, 5};
+    // Lambda function to calculate the sum of two numbers
+    auto sum = [](int a, int b) {
+        return a + b;
     };
-
-
     
     return 0;
 }
