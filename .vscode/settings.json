@@ -2,6 +2,7 @@
     "cmake.sourceDirectory": "C:/Users/patil/OneDrive/Desktop/100 Days of Cpp/Day 5",
     "files.associations": {
     "*.cppm": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
 
